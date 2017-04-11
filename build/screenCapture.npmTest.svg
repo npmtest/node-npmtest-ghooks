@@ -6,33 +6,33 @@
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-11T11:51:36Z - npm-testing /home/travis/build/npmtest/node-npmtes\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-11T11:53:56Z - npm-testing /home/travis/build/npmtest/node-npmtes\</tspan>
 <tspan x="10" y="122">t-ghooks</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154">merging file:///home/travis/build/npmtest/node-npmtest-ghooks/tmp/build/test-report.json to test\</tspan>
 <tspan x="10" y="170">-report</tspan>
-<tspan x="10" y="186">&gt; server listening on http-port 42129</tspan>
+<tspan x="10" y="186">&gt; server listening on http-port 42741</tspan>
 <tspan x="10" y="202">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
 <tspan x="10" y="218">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
 <tspan x="10" y="234">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
 <tspan x="10" y="250"></tspan>
 <tspan x="10" y="266">browserTest - created electron entry-page /home/travis/build/npmtest/node-npmtest-ghooks/tmp/ele\</tspan>
-<tspan x="10" y="282">ctron.15b5cdadafe0.4a0e8c02ff01e.html</tspan>
+<tspan x="10" y="282">ctron.15b5cdcfc5c0.035831a227385.html</tspan>
 <tspan x="10" y="298"></tspan>
 <tspan x="10" y="314">[node test-case 4 of 6 passed] - testCase_buildApidoc_default</tspan>
 <tspan x="10" y="330">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="346">merging file:///home/travis/build/npmtest/node-npmtest-ghooks/tmp/build/test-report.json to test\</tspan>
 <tspan x="10" y="362">-report</tspan>
 <tspan x="10" y="378">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="394">[5156:0411/115139:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="410">[5156:0411/115139:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="426">[5181:0411/115139:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="394">[6530:0411/115358:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="410">[6530:0411/115358:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="426">[6556:0411/115359:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
 <tspan x="10" y="442">in process gpu-process. </tspan>
-<tspan x="10" y="458">[5156:0411/115139:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="474">&gt; </tspan>
-<tspan x="10" y="490">browserTest - opened url http://127.0.0.1:42129?modeTest=1</tspan>
+<tspan x="10" y="458">[6530:0411/115359:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="474"></tspan>
+<tspan x="10" y="490">browserTest - opened url http://127.0.0.1:42741?modeTest=1</tspan>
 <tspan x="10" y="506"></tspan>
-<tspan x="10" y="522">server listening on http-port 59862</tspan>
+<tspan x="10" y="522">&gt; server listening on http-port 36781</tspan>
 <tspan x="10" y="538">[node test-case 5 of 6 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="554"></tspan>
 <tspan x="10" y="570">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-ghooks/tmp/bu\</tspan>
@@ -41,7 +41,7 @@
 <tspan x="10" y="618">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-ghooks/tmp/bu\</tspan>
 <tspan x="10" y="634">ild/screenCapture.npmTest.browser.%2F.html</tspan>
 <tspan x="10" y="650"></tspan>
-<tspan x="10" y="666">browserTest - exit-code 0 - http://127.0.0.1:42129?modeTest=1</tspan>
+<tspan x="10" y="666">browserTest - exit-code 0 - http://127.0.0.1:42741?modeTest=1</tspan>
 <tspan x="10" y="682"></tspan>
 <tspan x="10" y="698"></tspan>
 <tspan x="10" y="714">browserTest - merging test-report from /home/travis/build/npmtest/node-npmtest-ghooks/tmp/test-r\</tspan>
@@ -53,12 +53,12 @@
 <tspan x="10" y="810"></tspan>
 <tspan x="10" y="826">-------------------------------------------------------</tspan>
 <tspan x="10" y="842">| test-report - buildCustomOrg - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3\</tspan>
-<tspan x="10" y="858">6 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36 - 2017-04-11T11:50:46.9\</tspan>
-<tspan x="10" y="874">89Z</tspan>
-<tspan x="10" y="890">|   67895 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="858">6 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36 - 2017-04-11T11:52:57.3\</tspan>
+<tspan x="10" y="874">53Z</tspan>
+<tspan x="10" y="890">|   77201 ms            0 failed        6 passed      |</tspan>
 <tspan x="10" y="906">-------------------------------------------------------</tspan>
-<tspan x="10" y="922">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T11:50:44.904Z</tspan>
-<tspan x="10" y="938">|   16495 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="922">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T11:52:55.478Z</tspan>
+<tspan x="10" y="938">|   16314 ms            0 failed        6 passed      |</tspan>
 <tspan x="10" y="954">-------------------------------------------------------</tspan>
 <tspan x="10" y="970"></tspan>
 <tspan x="10" y="986">created test-report file:///home/travis/build/npmtest/node-npmtest-ghooks/tmp/build/test-report.\</tspan>
@@ -68,6 +68,6 @@
 <tspan x="10" y="1050">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="1066"></tspan>
 <tspan x="10" y="1082"></tspan>
-<tspan x="10" y="1098">[MODE_BUILD=npmTest] - 2017-04-11T11:51:56Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1098">[MODE_BUILD=npmTest] - 2017-04-11T11:54:16Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
