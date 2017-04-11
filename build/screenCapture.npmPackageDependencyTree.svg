@@ -1,0 +1,35 @@
+<svg height="510" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="510" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">2 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ ghooks@2.0.0 </tspan>
+<tspan x="10" y="90">  ├─┬ execa@0.4.0 </tspan>
+<tspan x="10" y="106">  │ ├─┬ cross-spawn-async@2.2.5 </tspan>
+<tspan x="10" y="122">  │ │ ├─┬ lru-cache@4.0.2 </tspan>
+<tspan x="10" y="138">  │ │ │ ├── pseudomap@1.0.2 </tspan>
+<tspan x="10" y="154">  │ │ │ └── yallist@2.1.2 </tspan>
+<tspan x="10" y="170">  │ │ └─┬ which@1.2.14 </tspan>
+<tspan x="10" y="186">  │ │   └── isexe@2.0.0 </tspan>
+<tspan x="10" y="202">  │ ├── is-stream@1.1.0 </tspan>
+<tspan x="10" y="218">  │ ├── npm-run-path@1.0.0 </tspan>
+<tspan x="10" y="234">  │ ├── object-assign@4.1.1 </tspan>
+<tspan x="10" y="250">  │ ├── path-key@1.0.0 </tspan>
+<tspan x="10" y="266">  │ └── strip-eof@1.0.0 </tspan>
+<tspan x="10" y="282">  ├─┬ findup@0.1.5 </tspan>
+<tspan x="10" y="298">  │ ├── colors@0.6.2 </tspan>
+<tspan x="10" y="314">  │ └── commander@2.1.0 </tspan>
+<tspan x="10" y="330">  ├─┬ lodash.clone@4.3.2 </tspan>
+<tspan x="10" y="346">  │ └── lodash._baseclone@4.5.7 </tspan>
+<tspan x="10" y="362">  ├── manage-path@2.0.0 </tspan>
+<tspan x="10" y="378">  ├─┬ opt-cli@1.5.1 </tspan>
+<tspan x="10" y="394">  │ ├─┬ commander@2.9.0 </tspan>
+<tspan x="10" y="410">  │ │ └── graceful-readlink@1.0.1 </tspan>
+<tspan x="10" y="426">  │ └── spawn-command@0.0.2-1 </tspan>
+<tspan x="10" y="442">  ├─┬ path-exists@2.1.0 </tspan>
+<tspan x="10" y="458">  │ └─┬ pinkie-promise@2.0.1 </tspan>
+<tspan x="10" y="474">  │   └── pinkie@2.0.4 </tspan>
+<tspan x="10" y="490">  └── spawn-command@0.0.2</tspan>
+</text>
+</svg>
