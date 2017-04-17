@@ -1,5 +1,7 @@
-<html lang="en"><head>
-    <title>Code coverage report for node-npmtest-ghooks/ghooks/dist/runner.js</title>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for node-npmtest-ghooks/node_modules/ghooks/dist/runner.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,7 +194,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-ghooks">npmtest-ghooks (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-ghooks/ghooks/dist/runner.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-ghooks/node_modules/ghooks/dist/runner.js</span></h1>
     <h2>
         
         Statements: <span class="metric">43.33% <small>(13 / 30)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -208,11 +210,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> » <a href="index.html">node-npmtest-ghooks/ghooks/dist/</a> » runner.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-ghooks/node_modules/ghooks/dist/</a> &#187; runner.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tbody><tr><td class="line-count">1
+<tr><td class="line-count">1
 2
 3
 4
@@ -335,54 +337,53 @@ var _require = require('path'),
 var findup = require('findup');
 var fs = require('fs');
 &nbsp;
-module.exports = <span class="fstat-no" title="function not covered">function run(nodeModulesPath, filename, env) {</span>
-<span class="cstat-no" title="statement not covered">  var command = commandFor(nodeModulesPath, hook(filename));</span>
-<span class="cstat-no" title="statement not covered">  if (command) {</span>
-<span class="cstat-no" title="statement not covered">    runCommand(command, env);</span>
+module.exports = <span class="fstat-no" title="function not covered" >function run(nodeModulesPath, filename, env) {</span>
+<span class="cstat-no" title="statement not covered" >  var command = commandFor(nodeModulesPath, hook(filename));</span>
+<span class="cstat-no" title="statement not covered" >  if (command) {</span>
+<span class="cstat-no" title="statement not covered" >    runCommand(command, env);</span>
   }
 };
 &nbsp;
-<span class="fstat-no" title="function not covered">function hook(filename) {</span>
-<span class="cstat-no" title="statement not covered">  return basename(filename);</span>
+<span class="fstat-no" title="function not covered" >function hook(filename) {</span>
+<span class="cstat-no" title="statement not covered" >  return basename(filename);</span>
 }
 &nbsp;
 // replace any instance of $1 or $2 etc. to that item as an process.argv
-<span class="fstat-no" title="function not covered">function replacePositionalVariables(command) {</span>
-<span class="cstat-no" title="statement not covered">  return command.replace(/\$(\d)/g, <span class="fstat-no" title="function not covered">function (match, number) {</span></span>
-<span class="cstat-no" title="statement not covered">    return process.argv[number];</span>
+<span class="fstat-no" title="function not covered" >function replacePositionalVariables(command) {</span>
+<span class="cstat-no" title="statement not covered" >  return command.replace(/\$(\d)/g, <span class="fstat-no" title="function not covered" >function (match, number) {</span></span>
+<span class="cstat-no" title="statement not covered" >    return process.argv[number];</span>
   });
 }
 &nbsp;
-<span class="fstat-no" title="function not covered">function commandFromPackage(packagePath, hookName) {</span>
-<span class="cstat-no" title="statement not covered">  var pkg = JSON.parse(fs.readFileSync(packagePath));</span>
-<span class="cstat-no" title="statement not covered">  if (pkg.config &amp;&amp; pkg.config.ghooks &amp;&amp; pkg.config.ghooks[hookName]) {</span>
-<span class="cstat-no" title="statement not covered">    return replacePositionalVariables(pkg.config.ghooks[hookName]);</span>
+<span class="fstat-no" title="function not covered" >function commandFromPackage(packagePath, hookName) {</span>
+<span class="cstat-no" title="statement not covered" >  var pkg = JSON.parse(fs.readFileSync(packagePath));</span>
+<span class="cstat-no" title="statement not covered" >  if (pkg.config &amp;&amp; pkg.config.ghooks &amp;&amp; pkg.config.ghooks[hookName]) {</span>
+<span class="cstat-no" title="statement not covered" >    return replacePositionalVariables(pkg.config.ghooks[hookName]);</span>
   } else {
-<span class="cstat-no" title="statement not covered">    return null;</span>
+<span class="cstat-no" title="statement not covered" >    return null;</span>
   }
 }
 &nbsp;
-<span class="fstat-no" title="function not covered">function commandFor(nodeModulesPath, hookName) {</span>
-<span class="cstat-no" title="statement not covered">  var pkgFile = findup.sync(nodeModulesPath, 'package.json');</span>
-<span class="cstat-no" title="statement not covered">  return commandFromPackage(resolve(pkgFile, 'package.json'), hookName);</span>
+<span class="fstat-no" title="function not covered" >function commandFor(nodeModulesPath, hookName) {</span>
+<span class="cstat-no" title="statement not covered" >  var pkgFile = findup.sync(nodeModulesPath, 'package.json');</span>
+<span class="cstat-no" title="statement not covered" >  return commandFromPackage(resolve(pkgFile, 'package.json'), hookName);</span>
 }
 &nbsp;
-<span class="fstat-no" title="function not covered">function runCommand(command, env) {</span>
-<span class="cstat-no" title="statement not covered">  env = clone(env || process.env);</span>
-<span class="cstat-no" title="statement not covered">  var alterPath = managePath(env);</span>
-<span class="cstat-no" title="statement not covered">  alterPath.unshift(getNpmBin(process.cwd()));</span>
-<span class="cstat-no" title="statement not covered">  spawn(command, { stdio: 'inherit', env: env }).on('exit', process.exit);</span>
+<span class="fstat-no" title="function not covered" >function runCommand(command, env) {</span>
+<span class="cstat-no" title="statement not covered" >  env = clone(env || process.env);</span>
+<span class="cstat-no" title="statement not covered" >  var alterPath = managePath(env);</span>
+<span class="cstat-no" title="statement not covered" >  alterPath.unshift(getNpmBin(process.cwd()));</span>
+<span class="cstat-no" title="statement not covered" >  spawn(command, { stdio: 'inherit', env: env }).on('exit', process.exit);</span>
 }
 &nbsp;
-<span class="fstat-no" title="function not covered">function getNpmBin(dirname) {</span>
-<span class="cstat-no" title="statement not covered">  return resolve(dirname, 'node_modules', '.bin');</span>
+<span class="fstat-no" title="function not covered" >function getNpmBin(dirname) {</span>
+<span class="cstat-no" title="statement not covered" >  return resolve(dirname, 'node_modules', '.bin');</span>
 }
 &nbsp;</pre></td></tr>
-</tbody></table></pre>
+</table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 11:53:13 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Mon Apr 17 2017 11:26:24 GMT+0000 (UTC)</div>
 </div>
-
-
-</body></html>
+</body>
+</html>
