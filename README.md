@@ -1,4 +1,7 @@
-# test coverage for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmtest-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ghooks.svg)](https://travis-ci.org/npmtest/node-npmtest-ghooks)
+# npmtest-ghooks
+
+#### test coverage for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmtest-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ghooks.svg)](https://travis-ci.org/npmtest/node-npmtest-ghooks)
+
 #### Simple git hooks
 
 [![NPM](https://nodei.co/npm/ghooks.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ghooks)
