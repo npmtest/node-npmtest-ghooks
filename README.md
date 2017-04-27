@@ -1,6 +1,6 @@
 # npmtest-ghooks
 
-#### test coverage for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmtest-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ghooks.svg)](https://travis-ci.org/npmtest/node-npmtest-ghooks)
+#### basic test coverage for  [ghooks (v2.0.0)](https://github.com/gtramontina/ghooks)  [![npm package](https://img.shields.io/npm/v/npmtest-ghooks.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ghooks) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ghooks.svg)](https://travis-ci.org/npmtest/node-npmtest-ghooks)
 
 #### Simple git hooks
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ghooks/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ghooks/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ghooks/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ghooks/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ghooks/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ghooks/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ghooks/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ghooks/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ghooks/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ghooks/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ghooks/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ghooks/build/coverage.html/index.html)
 
@@ -140,7 +140,8 @@
         "test:unit": "mocha --compilers js:babel-register",
         "validate": "npm t && npm run check-coverage"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
